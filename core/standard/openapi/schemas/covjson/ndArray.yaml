@@ -23,26 +23,29 @@ properties:
   values:
     type: array
     items:
-      type: number
-      nullable: true
-
+      type:
+        - number
+        - 'null'
     minItems: 1
 oneOf:
   - properties:
       values:
         items:
-          type: number
-        nullable: true
+          type:
+            - number
+            - 'null'    
   - properties:
       values:
         items:
-          type: integer
-        nullable: true
+          type:
+            - integer
+            - 'null'    
   - properties:
       values:
         items:
-          type: string
-        nullable: true
+          type:
+            - string
+            - 'null'    
   - properties:
       shape:
         minItems: 1

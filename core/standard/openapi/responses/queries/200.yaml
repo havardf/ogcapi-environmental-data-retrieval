@@ -3,9 +3,6 @@ content:
   application/vnd.cov+json:
     schema:
       $ref: ../../schemas/covjson/coverageJSON.yaml
-  application/geo+json:
-    schema:
-      $ref: ../../schemas/edr-geojson/edrFeatureCollectionGeoJSON.yaml
   application/x-netcdf: 
     schema:
       type: object  
