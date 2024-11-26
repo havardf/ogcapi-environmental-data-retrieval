@@ -30,17 +30,17 @@ paths:
   # OGC API - Environmental Data Retrieval: Collections
   /collections:
     $ref: paths/collections/collections.yaml
-  /collections/{collectionId}:
+  /collections/observations:
     $ref: paths/collections/collection.yaml
   # OGC API - Environmental Data Retrieval: Queries
-  /collections/{collectionId}/position:
+  /collections/observations/position:
     $ref: paths/queries/position.yaml
-  # /collections/{collectionId}/radius:
+  # /collections/observations/radius:
   #   $ref: paths/queries/radius.yaml
-  /collections/{collectionId}/area:
+  /collections/observations/area:
     $ref: paths/queries/area.yaml
-  /collections/{collectionId}/locations:
+  /collections/observations/locations:
     $ref: paths/queries/locations.yaml
-  /collections/{collectionId}/locations/{locationId}:
+  /collections/observations/locations/{locationId}:
     $ref: paths/queries/location.yaml
  
